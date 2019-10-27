@@ -15,7 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertTimeout;
 
 public class SqlTest {
-    private String path = "/Users/jinwook/woowa_course/level3/jwp-jdbc/study/src/main/resources/db.properties";
+    private String path = "src/main/resources/db.properties";
     private JdbcTemplate jdbcTemplate;
     private DataBasePropertyReader dataBasePropertyReader;
 
